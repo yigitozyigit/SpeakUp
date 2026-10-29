@@ -1,0 +1,522 @@
+[
+  {
+    "word": "apple",
+    "pos": "noun",
+    "tr": "elma"
+  },
+  {
+    "word": "water",
+    "pos": "noun",
+    "tr": "su"
+  },
+  {
+    "word": "book",
+    "pos": "noun",
+    "tr": "kitap"
+  },
+  {
+    "word": "house",
+    "pos": "noun",
+    "tr": "ev"
+  },
+  {
+    "word": "friend",
+    "pos": "noun",
+    "tr": "arkadaş"
+  },
+  {
+    "word": "family",
+    "pos": "noun",
+    "tr": "aile"
+  },
+  {
+    "word": "school",
+    "pos": "noun",
+    "tr": "okul"
+  },
+  {
+    "word": "teacher",
+    "pos": "noun",
+    "tr": "öğretmen"
+  },
+  {
+    "word": "student",
+    "pos": "noun",
+    "tr": "öğrenci"
+  },
+  {
+    "word": "table",
+    "pos": "noun",
+    "tr": "masa"
+  },
+  {
+    "word": "chair",
+    "pos": "noun",
+    "tr": "sandalye"
+  },
+  {
+    "word": "door",
+    "pos": "noun",
+    "tr": "kapı"
+  },
+  {
+    "word": "window",
+    "pos": "noun",
+    "tr": "pencere"
+  },
+  {
+    "word": "room",
+    "pos": "noun",
+    "tr": "oda"
+  },
+  {
+    "word": "kitchen",
+    "pos": "noun",
+    "tr": "mutfak"
+  },
+  {
+    "word": "garden",
+    "pos": "noun",
+    "tr": "bahçe"
+  },
+  {
+    "word": "city",
+    "pos": "noun",
+    "tr": "şehir"
+  },
+  {
+    "word": "street",
+    "pos": "noun",
+    "tr": "sokak"
+  },
+  {
+    "word": "car",
+    "pos": "noun",
+    "tr": "araba"
+  },
+  {
+    "word": "bus",
+    "pos": "noun",
+    "tr": "otobüs"
+  },
+  {
+    "word": "train",
+    "pos": "noun",
+    "tr": "tren"
+  },
+  {
+    "word": "station",
+    "pos": "noun",
+    "tr": "istasyon"
+  },
+  {
+    "word": "ticket",
+    "pos": "noun",
+    "tr": "bilet"
+  },
+  {
+    "word": "shop",
+    "pos": "noun",
+    "tr": "dükkân"
+  },
+  {
+    "word": "market",
+    "pos": "noun",
+    "tr": "market"
+  },
+  {
+    "word": "food",
+    "pos": "noun",
+    "tr": "yiyecek"
+  },
+  {
+    "word": "bread",
+    "pos": "noun",
+    "tr": "ekmek"
+  },
+  {
+    "word": "milk",
+    "pos": "noun",
+    "tr": "süt"
+  },
+  {
+    "word": "cheese",
+    "pos": "noun",
+    "tr": "peynir"
+  },
+  {
+    "word": "egg",
+    "pos": "noun",
+    "tr": "yumurta"
+  },
+  {
+    "word": "rice",
+    "pos": "noun",
+    "tr": "pirinç"
+  },
+  {
+    "word": "chicken",
+    "pos": "noun",
+    "tr": "tavuk"
+  },
+  {
+    "word": "fish",
+    "pos": "noun",
+    "tr": "balık"
+  },
+  {
+    "word": "fruit",
+    "pos": "noun",
+    "tr": "meyve"
+  },
+  {
+    "word": "vegetable",
+    "pos": "noun",
+    "tr": "sebze"
+  },
+  {
+    "word": "breakfast",
+    "pos": "noun",
+    "tr": "kahvaltı"
+  },
+  {
+    "word": "lunch",
+    "pos": "noun",
+    "tr": "öğle yemeği"
+  },
+  {
+    "word": "dinner",
+    "pos": "noun",
+    "tr": "akşam yemeği"
+  },
+  {
+    "word": "coffee",
+    "pos": "noun",
+    "tr": "kahve"
+  },
+  {
+    "word": "tea",
+    "pos": "noun",
+    "tr": "çay"
+  },
+  {
+    "word": "day",
+    "pos": "noun",
+    "tr": "gün"
+  },
+  {
+    "word": "night",
+    "pos": "noun",
+    "tr": "gece"
+  },
+  {
+    "word": "morning",
+    "pos": "noun",
+    "tr": "sabah"
+  },
+  {
+    "word": "evening",
+    "pos": "noun",
+    "tr": "akşam"
+  },
+  {
+    "word": "week",
+    "pos": "noun",
+    "tr": "hafta"
+  },
+  {
+    "word": "month",
+    "pos": "noun",
+    "tr": "ay"
+  },
+  {
+    "word": "year",
+    "pos": "noun",
+    "tr": "yıl"
+  },
+  {
+    "word": "today",
+    "pos": "adverb",
+    "tr": "bugün"
+  },
+  {
+    "word": "tomorrow",
+    "pos": "adverb",
+    "tr": "yarın"
+  },
+  {
+    "word": "yesterday",
+    "pos": "adverb",
+    "tr": "dün"
+  },
+  {
+    "word": "happy",
+    "pos": "adjective",
+    "tr": "mutlu"
+  },
+  {
+    "word": "sad",
+    "pos": "adjective",
+    "tr": "üzgün"
+  },
+  {
+    "word": "tired",
+    "pos": "adjective",
+    "tr": "yorgun"
+  },
+  {
+    "word": "hungry",
+    "pos": "adjective",
+    "tr": "aç"
+  },
+  {
+    "word": "thirsty",
+    "pos": "adjective",
+    "tr": "susamış"
+  },
+  {
+    "word": "big",
+    "pos": "adjective",
+    "tr": "büyük"
+  },
+  {
+    "word": "small",
+    "pos": "adjective",
+    "tr": "küçük"
+  },
+  {
+    "word": "good",
+    "pos": "adjective",
+    "tr": "iyi"
+  },
+  {
+    "word": "bad",
+    "pos": "adjective",
+    "tr": "kötü"
+  },
+  {
+    "word": "new",
+    "pos": "adjective",
+    "tr": "yeni"
+  },
+  {
+    "word": "old",
+    "pos": "adjective",
+    "tr": "eski"
+  },
+  {
+    "word": "hot",
+    "pos": "adjective",
+    "tr": "sıcak"
+  },
+  {
+    "word": "cold",
+    "pos": "adjective",
+    "tr": "soğuk"
+  },
+  {
+    "word": "fast",
+    "pos": "adjective",
+    "tr": "hızlı"
+  },
+  {
+    "word": "slow",
+    "pos": "adjective",
+    "tr": "yavaş"
+  },
+  {
+    "word": "easy",
+    "pos": "adjective",
+    "tr": "kolay"
+  },
+  {
+    "word": "difficult",
+    "pos": "adjective",
+    "tr": "zor"
+  },
+  {
+    "word": "beautiful",
+    "pos": "adjective",
+    "tr": "güzel"
+  },
+  {
+    "word": "clean",
+    "pos": "adjective",
+    "tr": "temiz"
+  },
+  {
+    "word": "dirty",
+    "pos": "adjective",
+    "tr": "kirli"
+  },
+  {
+    "word": "open",
+    "pos": "verb",
+    "tr": "açmak"
+  },
+  {
+    "word": "close",
+    "pos": "verb",
+    "tr": "kapatmak"
+  },
+  {
+    "word": "start",
+    "pos": "verb",
+    "tr": "başlamak"
+  },
+  {
+    "word": "finish",
+    "pos": "verb",
+    "tr": "bitirmek"
+  },
+  {
+    "word": "go",
+    "pos": "verb",
+    "tr": "gitmek"
+  },
+  {
+    "word": "come",
+    "pos": "verb",
+    "tr": "gelmek"
+  },
+  {
+    "word": "eat",
+    "pos": "verb",
+    "tr": "yemek"
+  },
+  {
+    "word": "drink",
+    "pos": "verb",
+    "tr": "içmek"
+  },
+  {
+    "word": "read",
+    "pos": "verb",
+    "tr": "okumak"
+  },
+  {
+    "word": "write",
+    "pos": "verb",
+    "tr": "yazmak"
+  },
+  {
+    "word": "speak",
+    "pos": "verb",
+    "tr": "konuşmak"
+  },
+  {
+    "word": "listen",
+    "pos": "verb",
+    "tr": "dinlemek"
+  },
+  {
+    "word": "learn",
+    "pos": "verb",
+    "tr": "öğrenmek"
+  },
+  {
+    "word": "work",
+    "pos": "verb",
+    "tr": "çalışmak"
+  },
+  {
+    "word": "play",
+    "pos": "verb",
+    "tr": "oynamak"
+  },
+  {
+    "word": "live",
+    "pos": "verb",
+    "tr": "yaşamak"
+  },
+  {
+    "word": "like",
+    "pos": "verb",
+    "tr": "beğenmek"
+  },
+  {
+    "word": "love",
+    "pos": "verb",
+    "tr": "sevmek"
+  },
+  {
+    "word": "want",
+    "pos": "verb",
+    "tr": "istemek"
+  },
+  {
+    "word": "need",
+    "pos": "verb",
+    "tr": "ihtiyaç duymak"
+  },
+  {
+    "word": "have",
+    "pos": "verb",
+    "tr": "sahip olmak"
+  },
+  {
+    "word": "make",
+    "pos": "verb",
+    "tr": "yapmak"
+  },
+  {
+    "word": "take",
+    "pos": "verb",
+    "tr": "almak"
+  },
+  {
+    "word": "give",
+    "pos": "verb",
+    "tr": "vermek"
+  },
+  {
+    "word": "see",
+    "pos": "verb",
+    "tr": "görmek"
+  },
+  {
+    "word": "look",
+    "pos": "verb",
+    "tr": "bakmak"
+  },
+  {
+    "word": "walk",
+    "pos": "verb",
+    "tr": "yürümek"
+  },
+  {
+    "word": "run",
+    "pos": "verb",
+    "tr": "koşmak"
+  },
+  {
+    "word": "sleep",
+    "pos": "verb",
+    "tr": "uyumak"
+  },
+  {
+    "word": "buy",
+    "pos": "verb",
+    "tr": "satın almak"
+  },
+  {
+    "word": "family member",
+    "pos": "noun",
+    "tr": "aile üyesi"
+  },
+  {
+    "word": "help",
+    "pos": "verb",
+    "tr": "yardım etmek"
+  },
+  {
+    "word": "beautifully",
+    "pos": "adverb",
+    "tr": "güzelce"
+  },
+  {
+    "word": "small town",
+    "pos": "noun",
+    "tr": "küçük kasaba"
+  }
+]

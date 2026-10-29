@@ -1,0 +1,512 @@
+[
+  {
+    "word": "accomplish",
+    "pos": "verb",
+    "tr": "tamamlamak, başarmak"
+  },
+  {
+    "word": "acknowledge",
+    "pos": "verb",
+    "tr": "kabul etmek"
+  },
+  {
+    "word": "adapt",
+    "pos": "verb",
+    "tr": "uyum sağlamak"
+  },
+  {
+    "word": "analyze",
+    "pos": "verb",
+    "tr": "analiz etmek"
+  },
+  {
+    "word": "assume",
+    "pos": "verb",
+    "tr": "varsaymak"
+  },
+  {
+    "word": "clarify",
+    "pos": "verb",
+    "tr": "açıklığa kavuşturmak"
+  },
+  {
+    "word": "contribute",
+    "pos": "verb",
+    "tr": "katkıda bulunmak"
+  },
+  {
+    "word": "convince",
+    "pos": "verb",
+    "tr": "ikna etmek"
+  },
+  {
+    "word": "coordinate",
+    "pos": "verb",
+    "tr": "koordine etmek"
+  },
+  {
+    "word": "demonstrate",
+    "pos": "verb",
+    "tr": "göstermek"
+  },
+  {
+    "word": "emphasize",
+    "pos": "verb",
+    "tr": "vurgulamak"
+  },
+  {
+    "word": "establish",
+    "pos": "verb",
+    "tr": "kurmak"
+  },
+  {
+    "word": "evaluate",
+    "pos": "verb",
+    "tr": "değerlendirmek"
+  },
+  {
+    "word": "expand",
+    "pos": "verb",
+    "tr": "genişletmek"
+  },
+  {
+    "word": "identify",
+    "pos": "verb",
+    "tr": "tanımlamak"
+  },
+  {
+    "word": "implement",
+    "pos": "verb",
+    "tr": "uygulamak"
+  },
+  {
+    "word": "maintain",
+    "pos": "verb",
+    "tr": "sürdürmek"
+  },
+  {
+    "word": "obtain",
+    "pos": "verb",
+    "tr": "elde etmek"
+  },
+  {
+    "word": "participate",
+    "pos": "verb",
+    "tr": "katılmak"
+  },
+  {
+    "word": "persuade",
+    "pos": "verb",
+    "tr": "ikna etmek"
+  },
+  {
+    "word": "prioritize",
+    "pos": "verb",
+    "tr": "öncelik vermek"
+  },
+  {
+    "word": "propose",
+    "pos": "verb",
+    "tr": "önermek"
+  },
+  {
+    "word": "reflect",
+    "pos": "verb",
+    "tr": "yansıtmak, düşünmek"
+  },
+  {
+    "word": "resolve",
+    "pos": "verb",
+    "tr": "çözmek"
+  },
+  {
+    "word": "respond",
+    "pos": "verb",
+    "tr": "yanıt vermek"
+  },
+  {
+    "word": "seek",
+    "pos": "verb",
+    "tr": "aramak"
+  },
+  {
+    "word": "strengthen",
+    "pos": "verb",
+    "tr": "güçlendirmek"
+  },
+  {
+    "word": "transform",
+    "pos": "verb",
+    "tr": "dönüştürmek"
+  },
+  {
+    "word": "undertake",
+    "pos": "verb",
+    "tr": "üstlenmek"
+  },
+  {
+    "word": "withdraw",
+    "pos": "verb",
+    "tr": "geri çekilmek"
+  },
+  {
+    "word": "approach",
+    "pos": "noun",
+    "tr": "yaklaşım"
+  },
+  {
+    "word": "awareness",
+    "pos": "noun",
+    "tr": "farkındalık"
+  },
+  {
+    "word": "capacity",
+    "pos": "noun",
+    "tr": "kapasite"
+  },
+  {
+    "word": "circumstance",
+    "pos": "noun",
+    "tr": "koşul"
+  },
+  {
+    "word": "consequence",
+    "pos": "noun",
+    "tr": "sonuç"
+  },
+  {
+    "word": "contribution",
+    "pos": "noun",
+    "tr": "katkı"
+  },
+  {
+    "word": "criteria",
+    "pos": "noun",
+    "tr": "ölçütler"
+  },
+  {
+    "word": "evidence",
+    "pos": "noun",
+    "tr": "kanıt"
+  },
+  {
+    "word": "feature",
+    "pos": "noun",
+    "tr": "özellik"
+  },
+  {
+    "word": "impact",
+    "pos": "noun",
+    "tr": "etki"
+  },
+  {
+    "word": "insight",
+    "pos": "noun",
+    "tr": "içgörü"
+  },
+  {
+    "word": "issue",
+    "pos": "noun",
+    "tr": "mesele"
+  },
+  {
+    "word": "method",
+    "pos": "noun",
+    "tr": "yöntem"
+  },
+  {
+    "word": "objective",
+    "pos": "noun",
+    "tr": "amaç"
+  },
+  {
+    "word": "outcome",
+    "pos": "noun",
+    "tr": "çıktı, sonuç"
+  },
+  {
+    "word": "perspective",
+    "pos": "noun",
+    "tr": "bakış açısı"
+  },
+  {
+    "word": "priority",
+    "pos": "noun",
+    "tr": "öncelik"
+  },
+  {
+    "word": "process",
+    "pos": "noun",
+    "tr": "süreç"
+  },
+  {
+    "word": "resource",
+    "pos": "noun",
+    "tr": "kaynak"
+  },
+  {
+    "word": "strategy",
+    "pos": "noun",
+    "tr": "strateji"
+  },
+  {
+    "word": "trend",
+    "pos": "noun",
+    "tr": "eğilim"
+  },
+  {
+    "word": "accurate",
+    "pos": "adjective",
+    "tr": "doğru, kesin"
+  },
+  {
+    "word": "adequate",
+    "pos": "adjective",
+    "tr": "yeterli"
+  },
+  {
+    "word": "appropriate",
+    "pos": "adjective",
+    "tr": "uygun"
+  },
+  {
+    "word": "beneficial",
+    "pos": "adjective",
+    "tr": "faydalı"
+  },
+  {
+    "word": "complex",
+    "pos": "adjective",
+    "tr": "karmaşık"
+  },
+  {
+    "word": "consistent",
+    "pos": "adjective",
+    "tr": "tutarlı"
+  },
+  {
+    "word": "crucial",
+    "pos": "adjective",
+    "tr": "çok önemli"
+  },
+  {
+    "word": "diverse",
+    "pos": "adjective",
+    "tr": "çeşitli"
+  },
+  {
+    "word": "efficient",
+    "pos": "adjective",
+    "tr": "verimli"
+  },
+  {
+    "word": "eligible",
+    "pos": "adjective",
+    "tr": "uygun, hak sahibi"
+  },
+  {
+    "word": "essential",
+    "pos": "adjective",
+    "tr": "zorunlu"
+  },
+  {
+    "word": "flexible",
+    "pos": "adjective",
+    "tr": "esnek"
+  },
+  {
+    "word": "fundamental",
+    "pos": "adjective",
+    "tr": "temel"
+  },
+  {
+    "word": "gradual",
+    "pos": "adjective",
+    "tr": "kademeli"
+  },
+  {
+    "word": "inevitable",
+    "pos": "adjective",
+    "tr": "kaçınılmaz"
+  },
+  {
+    "word": "innovative",
+    "pos": "adjective",
+    "tr": "yenilikçi"
+  },
+  {
+    "word": "relevant",
+    "pos": "adjective",
+    "tr": "ilgili"
+  },
+  {
+    "word": "reliable",
+    "pos": "adjective",
+    "tr": "güvenilir"
+  },
+  {
+    "word": "significant",
+    "pos": "adjective",
+    "tr": "önemli"
+  },
+  {
+    "word": "substantial",
+    "pos": "adjective",
+    "tr": "önemli ölçüde"
+  },
+  {
+    "word": "ultimately",
+    "pos": "adverb",
+    "tr": "sonuçta"
+  },
+  {
+    "word": "approximately",
+    "pos": "adverb",
+    "tr": "yaklaşık olarak"
+  },
+  {
+    "word": "consequently",
+    "pos": "adverb",
+    "tr": "sonuç olarak"
+  },
+  {
+    "word": "deliberately",
+    "pos": "adverb",
+    "tr": "bilerek"
+  },
+  {
+    "word": "eventually",
+    "pos": "adverb",
+    "tr": "eninde sonunda"
+  },
+  {
+    "word": "frequently",
+    "pos": "adverb",
+    "tr": "sık sık"
+  },
+  {
+    "word": "nevertheless",
+    "pos": "adverb",
+    "tr": "buna rağmen"
+  },
+  {
+    "word": "particularly",
+    "pos": "adverb",
+    "tr": "özellikle"
+  },
+  {
+    "word": "relatively",
+    "pos": "adverb",
+    "tr": "göreceli olarak"
+  },
+  {
+    "word": "whereas",
+    "pos": "conjunction",
+    "tr": "oysa, halbuki"
+  },
+  {
+    "word": "despite",
+    "pos": "preposition",
+    "tr": "rağmen"
+  },
+  {
+    "word": "regardless",
+    "pos": "adverb",
+    "tr": "her durumda"
+  },
+  {
+    "word": "in contrast",
+    "pos": "phrase",
+    "tr": "buna karşılık"
+  },
+  {
+    "word": "in terms of",
+    "pos": "phrase",
+    "tr": "açısından"
+  },
+  {
+    "word": "as far as",
+    "pos": "phrase",
+    "tr": "olduğu kadarıyla"
+  },
+  {
+    "word": "carry out",
+    "pos": "verb",
+    "tr": "gerçekleştirmek"
+  },
+  {
+    "word": "come up with",
+    "pos": "verb",
+    "tr": "ortaya atmak"
+  },
+  {
+    "word": "keep up with",
+    "pos": "verb",
+    "tr": "ayak uydurmak"
+  },
+  {
+    "word": "point out",
+    "pos": "verb",
+    "tr": "belirtmek"
+  },
+  {
+    "word": "rule out",
+    "pos": "verb",
+    "tr": "olasılık dışı bırakmak"
+  },
+  {
+    "word": "take into account",
+    "pos": "verb",
+    "tr": "hesaba katmak"
+  },
+  {
+    "word": "turn out",
+    "pos": "verb",
+    "tr": "sonuçlanmak"
+  },
+  {
+    "word": "accountability",
+    "pos": "noun",
+    "tr": "hesap verebilirlik"
+  },
+  {
+    "word": "collaboration",
+    "pos": "noun",
+    "tr": "iş birliği"
+  },
+  {
+    "word": "persuasive",
+    "pos": "adjective",
+    "tr": "ikna edici"
+  },
+  {
+    "word": "exceptional",
+    "pos": "adjective",
+    "tr": "olağanüstü"
+  },
+  {
+    "word": "resilient",
+    "pos": "adjective",
+    "tr": "dayanıklı"
+  },
+  {
+    "word": "allocate",
+    "pos": "verb",
+    "tr": "ayırmak, tahsis etmek"
+  },
+  {
+    "word": "justify",
+    "pos": "verb",
+    "tr": "gerekçelendirmek"
+  },
+  {
+    "word": "monitor",
+    "pos": "verb",
+    "tr": "izlemek, takip etmek"
+  },
+  {
+    "word": "sustainable",
+    "pos": "adjective",
+    "tr": "sürdürülebilir"
+  }
+]

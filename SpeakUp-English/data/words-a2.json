@@ -1,0 +1,532 @@
+[
+  {
+    "word": "arrive",
+    "pos": "verb",
+    "tr": "varmak"
+  },
+  {
+    "word": "borrow",
+    "pos": "verb",
+    "tr": "ödünç almak"
+  },
+  {
+    "word": "carry",
+    "pos": "verb",
+    "tr": "taşımak"
+  },
+  {
+    "word": "change",
+    "pos": "verb",
+    "tr": "değiştirmek"
+  },
+  {
+    "word": "choose",
+    "pos": "verb",
+    "tr": "seçmek"
+  },
+  {
+    "word": "cook",
+    "pos": "verb",
+    "tr": "yemek pişirmek"
+  },
+  {
+    "word": "cost",
+    "pos": "verb",
+    "tr": "tutmak, fiyatı olmak"
+  },
+  {
+    "word": "decide",
+    "pos": "verb",
+    "tr": "karar vermek"
+  },
+  {
+    "word": "describe",
+    "pos": "verb",
+    "tr": "tanımlamak"
+  },
+  {
+    "word": "enjoy",
+    "pos": "verb",
+    "tr": "keyif almak"
+  },
+  {
+    "word": "explain",
+    "pos": "verb",
+    "tr": "açıklamak"
+  },
+  {
+    "word": "forget",
+    "pos": "verb",
+    "tr": "unutmak"
+  },
+  {
+    "word": "happen",
+    "pos": "verb",
+    "tr": "olmak, meydana gelmek"
+  },
+  {
+    "word": "invite",
+    "pos": "verb",
+    "tr": "davet etmek"
+  },
+  {
+    "word": "join",
+    "pos": "verb",
+    "tr": "katılmak"
+  },
+  {
+    "word": "leave",
+    "pos": "verb",
+    "tr": "ayrılmak"
+  },
+  {
+    "word": "lend",
+    "pos": "verb",
+    "tr": "ödünç vermek"
+  },
+  {
+    "word": "meet",
+    "pos": "verb",
+    "tr": "buluşmak"
+  },
+  {
+    "word": "move",
+    "pos": "verb",
+    "tr": "taşınmak, hareket etmek"
+  },
+  {
+    "word": "order",
+    "pos": "verb",
+    "tr": "sipariş vermek"
+  },
+  {
+    "word": "plan",
+    "pos": "verb",
+    "tr": "planlamak"
+  },
+  {
+    "word": "practice",
+    "pos": "verb",
+    "tr": "pratik yapmak"
+  },
+  {
+    "word": "remember",
+    "pos": "verb",
+    "tr": "hatırlamak"
+  },
+  {
+    "word": "return",
+    "pos": "verb",
+    "tr": "geri dönmek"
+  },
+  {
+    "word": "travel",
+    "pos": "verb",
+    "tr": "seyahat etmek"
+  },
+  {
+    "word": "visit",
+    "pos": "verb",
+    "tr": "ziyaret etmek"
+  },
+  {
+    "word": "wait",
+    "pos": "verb",
+    "tr": "beklemek"
+  },
+  {
+    "word": "wash",
+    "pos": "verb",
+    "tr": "yıkamak"
+  },
+  {
+    "word": "weather",
+    "pos": "noun",
+    "tr": "hava durumu"
+  },
+  {
+    "word": "airport",
+    "pos": "noun",
+    "tr": "havaalanı"
+  },
+  {
+    "word": "apartment",
+    "pos": "noun",
+    "tr": "daire"
+  },
+  {
+    "word": "bank",
+    "pos": "noun",
+    "tr": "banka"
+  },
+  {
+    "word": "beach",
+    "pos": "noun",
+    "tr": "sahil"
+  },
+  {
+    "word": "bicycle",
+    "pos": "noun",
+    "tr": "bisiklet"
+  },
+  {
+    "word": "birthday",
+    "pos": "noun",
+    "tr": "doğum günü"
+  },
+  {
+    "word": "bottle",
+    "pos": "noun",
+    "tr": "şişe"
+  },
+  {
+    "word": "camera",
+    "pos": "noun",
+    "tr": "fotoğraf makinesi"
+  },
+  {
+    "word": "clothes",
+    "pos": "noun",
+    "tr": "giysiler"
+  },
+  {
+    "word": "concert",
+    "pos": "noun",
+    "tr": "konser"
+  },
+  {
+    "word": "country",
+    "pos": "noun",
+    "tr": "ülke"
+  },
+  {
+    "word": "dictionary",
+    "pos": "noun",
+    "tr": "sözlük"
+  },
+  {
+    "word": "doctor",
+    "pos": "noun",
+    "tr": "doktor"
+  },
+  {
+    "word": "exercise",
+    "pos": "noun",
+    "tr": "egzersiz"
+  },
+  {
+    "word": "festival",
+    "pos": "noun",
+    "tr": "festival"
+  },
+  {
+    "word": "floor",
+    "pos": "noun",
+    "tr": "kat, zemin"
+  },
+  {
+    "word": "hospital",
+    "pos": "noun",
+    "tr": "hastane"
+  },
+  {
+    "word": "hotel",
+    "pos": "noun",
+    "tr": "otel"
+  },
+  {
+    "word": "library",
+    "pos": "noun",
+    "tr": "kütüphane"
+  },
+  {
+    "word": "map",
+    "pos": "noun",
+    "tr": "harita"
+  },
+  {
+    "word": "message",
+    "pos": "noun",
+    "tr": "mesaj"
+  },
+  {
+    "word": "museum",
+    "pos": "noun",
+    "tr": "müze"
+  },
+  {
+    "word": "neighbor",
+    "pos": "noun",
+    "tr": "komşu"
+  },
+  {
+    "word": "office",
+    "pos": "noun",
+    "tr": "ofis"
+  },
+  {
+    "word": "park",
+    "pos": "noun",
+    "tr": "park"
+  },
+  {
+    "word": "passport",
+    "pos": "noun",
+    "tr": "pasaport"
+  },
+  {
+    "word": "pharmacy",
+    "pos": "noun",
+    "tr": "eczane"
+  },
+  {
+    "word": "picnic",
+    "pos": "noun",
+    "tr": "piknik"
+  },
+  {
+    "word": "restaurant",
+    "pos": "noun",
+    "tr": "restoran"
+  },
+  {
+    "word": "sandwich",
+    "pos": "noun",
+    "tr": "sandviç"
+  },
+  {
+    "word": "season",
+    "pos": "noun",
+    "tr": "mevsim"
+  },
+  {
+    "word": "size",
+    "pos": "noun",
+    "tr": "beden, boyut"
+  },
+  {
+    "word": "supermarket",
+    "pos": "noun",
+    "tr": "süpermarket"
+  },
+  {
+    "word": "suitcase",
+    "pos": "noun",
+    "tr": "bavul"
+  },
+  {
+    "word": "umbrella",
+    "pos": "noun",
+    "tr": "şemsiye"
+  },
+  {
+    "word": "village",
+    "pos": "noun",
+    "tr": "köy"
+  },
+  {
+    "word": "wallet",
+    "pos": "noun",
+    "tr": "cüzdan"
+  },
+  {
+    "word": "weekend",
+    "pos": "noun",
+    "tr": "hafta sonu"
+  },
+  {
+    "word": "advice",
+    "pos": "noun",
+    "tr": "tavsiye"
+  },
+  {
+    "word": "afraid",
+    "pos": "adjective",
+    "tr": "korkmuş"
+  },
+  {
+    "word": "alone",
+    "pos": "adjective",
+    "tr": "yalnız"
+  },
+  {
+    "word": "careful",
+    "pos": "adjective",
+    "tr": "dikkatli"
+  },
+  {
+    "word": "comfortable",
+    "pos": "adjective",
+    "tr": "rahat"
+  },
+  {
+    "word": "crowded",
+    "pos": "adjective",
+    "tr": "kalabalık"
+  },
+  {
+    "word": "delicious",
+    "pos": "adjective",
+    "tr": "lezzetli"
+  },
+  {
+    "word": "excited",
+    "pos": "adjective",
+    "tr": "heyecanlı"
+  },
+  {
+    "word": "famous",
+    "pos": "adjective",
+    "tr": "ünlü"
+  },
+  {
+    "word": "friendly",
+    "pos": "adjective",
+    "tr": "arkadaş canlısı"
+  },
+  {
+    "word": "healthy",
+    "pos": "adjective",
+    "tr": "sağlıklı"
+  },
+  {
+    "word": "important",
+    "pos": "adjective",
+    "tr": "önemli"
+  },
+  {
+    "word": "interesting",
+    "pos": "adjective",
+    "tr": "ilginç"
+  },
+  {
+    "word": "lucky",
+    "pos": "adjective",
+    "tr": "şanslı"
+  },
+  {
+    "word": "noisy",
+    "pos": "adjective",
+    "tr": "gürültülü"
+  },
+  {
+    "word": "polite",
+    "pos": "adjective",
+    "tr": "kibar"
+  },
+  {
+    "word": "quiet",
+    "pos": "adjective",
+    "tr": "sessiz"
+  },
+  {
+    "word": "ready",
+    "pos": "adjective",
+    "tr": "hazır"
+  },
+  {
+    "word": "safe",
+    "pos": "adjective",
+    "tr": "güvenli"
+  },
+  {
+    "word": "surprised",
+    "pos": "adjective",
+    "tr": "şaşırmış"
+  },
+  {
+    "word": "worried",
+    "pos": "adjective",
+    "tr": "endişeli"
+  },
+  {
+    "word": "across",
+    "pos": "preposition",
+    "tr": "karşısında, karşıya"
+  },
+  {
+    "word": "around",
+    "pos": "preposition",
+    "tr": "çevresinde"
+  },
+  {
+    "word": "behind",
+    "pos": "preposition",
+    "tr": "arkasında"
+  },
+  {
+    "word": "between",
+    "pos": "preposition",
+    "tr": "arasında"
+  },
+  {
+    "word": "early",
+    "pos": "adverb",
+    "tr": "erken"
+  },
+  {
+    "word": "late",
+    "pos": "adverb",
+    "tr": "geç"
+  },
+  {
+    "word": "maybe",
+    "pos": "adverb",
+    "tr": "belki"
+  },
+  {
+    "word": "never",
+    "pos": "adverb",
+    "tr": "asla"
+  },
+  {
+    "word": "often",
+    "pos": "adverb",
+    "tr": "sık sık"
+  },
+  {
+    "word": "usually",
+    "pos": "adverb",
+    "tr": "genellikle"
+  },
+  {
+    "word": "together",
+    "pos": "adverb",
+    "tr": "birlikte"
+  },
+  {
+    "word": "upstairs",
+    "pos": "adverb",
+    "tr": "üst katta"
+  },
+  {
+    "word": "downstairs",
+    "pos": "adverb",
+    "tr": "alt katta"
+  },
+  {
+    "word": "prepare",
+    "pos": "verb",
+    "tr": "hazırlamak"
+  },
+  {
+    "word": "repair",
+    "pos": "verb",
+    "tr": "tamir etmek"
+  },
+  {
+    "word": "return ticket",
+    "pos": "noun",
+    "tr": "gidiş dönüş bileti"
+  },
+  {
+    "word": "carefully",
+    "pos": "adverb",
+    "tr": "dikkatlice"
+  },
+  {
+    "word": "arrangement",
+    "pos": "noun",
+    "tr": "düzenleme"
+  }
+]

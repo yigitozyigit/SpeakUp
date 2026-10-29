@@ -1,0 +1,45 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedInAs(uid) {
+      return request.auth != null && request.auth.uid == uid;
+    }
+
+    function validSettings(settings) {
+      return settings is map
+        && settings.keys().hasOnly(['dailyGoal', 'level', 'theme'])
+        && settings.keys().hasAll(['dailyGoal', 'level', 'theme'])
+        && settings.dailyGoal is int
+        && settings.dailyGoal in [5, 10, 15]
+        && settings.level is string
+        && settings.level in ['A1', 'A2', 'B1', 'B2']
+        && settings.theme is string
+        && settings.theme in ['light', 'dark', 'system'];
+    }
+
+    match /users/{uid} {
+      allow read: if signedInAs(uid);
+      allow create: if signedInAs(uid)
+        && request.resource.data.keys().hasOnly(['displayName', 'email', 'createdAt', 'timezone'])
+        && request.resource.data.displayName is string
+        && request.resource.data.displayName.size() <= 120
+        && (request.resource.data.email == null || request.resource.data.email is string)
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.timezone is string
+        && request.resource.data.timezone.size() <= 64;
+      allow update: if signedInAs(uid)
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['settings'])
+        && validSettings(request.resource.data.settings);
+      allow delete: if false;
+
+      match /{subpath=**} {
+        allow read: if signedInAs(uid);
+        allow write: if false;
+      }
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

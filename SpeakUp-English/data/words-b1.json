@@ -1,0 +1,522 @@
+[
+  {
+    "word": "achieve",
+    "pos": "verb",
+    "tr": "başarmak"
+  },
+  {
+    "word": "afford",
+    "pos": "verb",
+    "tr": "maddi gücü yetmek"
+  },
+  {
+    "word": "agree",
+    "pos": "verb",
+    "tr": "aynı fikirde olmak"
+  },
+  {
+    "word": "allow",
+    "pos": "verb",
+    "tr": "izin vermek"
+  },
+  {
+    "word": "avoid",
+    "pos": "verb",
+    "tr": "kaçınmak"
+  },
+  {
+    "word": "behave",
+    "pos": "verb",
+    "tr": "davranmak"
+  },
+  {
+    "word": "belong",
+    "pos": "verb",
+    "tr": "ait olmak"
+  },
+  {
+    "word": "benefit",
+    "pos": "verb",
+    "tr": "fayda sağlamak"
+  },
+  {
+    "word": "compare",
+    "pos": "verb",
+    "tr": "karşılaştırmak"
+  },
+  {
+    "word": "complain",
+    "pos": "verb",
+    "tr": "şikâyet etmek"
+  },
+  {
+    "word": "consider",
+    "pos": "verb",
+    "tr": "değerlendirmek"
+  },
+  {
+    "word": "continue",
+    "pos": "verb",
+    "tr": "devam etmek"
+  },
+  {
+    "word": "create",
+    "pos": "verb",
+    "tr": "yaratmak"
+  },
+  {
+    "word": "depend",
+    "pos": "verb",
+    "tr": "bağlı olmak"
+  },
+  {
+    "word": "develop",
+    "pos": "verb",
+    "tr": "geliştirmek"
+  },
+  {
+    "word": "discover",
+    "pos": "verb",
+    "tr": "keşfetmek"
+  },
+  {
+    "word": "encourage",
+    "pos": "verb",
+    "tr": "cesaretlendirmek"
+  },
+  {
+    "word": "expect",
+    "pos": "verb",
+    "tr": "beklemek, ummak"
+  },
+  {
+    "word": "improve",
+    "pos": "verb",
+    "tr": "iyileştirmek"
+  },
+  {
+    "word": "include",
+    "pos": "verb",
+    "tr": "içermek"
+  },
+  {
+    "word": "increase",
+    "pos": "verb",
+    "tr": "artırmak"
+  },
+  {
+    "word": "influence",
+    "pos": "verb",
+    "tr": "etkilemek"
+  },
+  {
+    "word": "manage",
+    "pos": "verb",
+    "tr": "başarmak, yönetmek"
+  },
+  {
+    "word": "notice",
+    "pos": "verb",
+    "tr": "fark etmek"
+  },
+  {
+    "word": "offer",
+    "pos": "verb",
+    "tr": "teklif etmek"
+  },
+  {
+    "word": "prepare",
+    "pos": "verb",
+    "tr": "hazırlamak"
+  },
+  {
+    "word": "prevent",
+    "pos": "verb",
+    "tr": "önlemek"
+  },
+  {
+    "word": "provide",
+    "pos": "verb",
+    "tr": "sağlamak"
+  },
+  {
+    "word": "realize",
+    "pos": "verb",
+    "tr": "farkına varmak"
+  },
+  {
+    "word": "reduce",
+    "pos": "verb",
+    "tr": "azaltmak"
+  },
+  {
+    "word": "refuse",
+    "pos": "verb",
+    "tr": "reddetmek"
+  },
+  {
+    "word": "require",
+    "pos": "verb",
+    "tr": "gerektirmek"
+  },
+  {
+    "word": "suggest",
+    "pos": "verb",
+    "tr": "önermek"
+  },
+  {
+    "word": "support",
+    "pos": "verb",
+    "tr": "desteklemek"
+  },
+  {
+    "word": "suppose",
+    "pos": "verb",
+    "tr": "varsaymak"
+  },
+  {
+    "word": "advice",
+    "pos": "noun",
+    "tr": "tavsiye"
+  },
+  {
+    "word": "advantage",
+    "pos": "noun",
+    "tr": "avantaj"
+  },
+  {
+    "word": "appointment",
+    "pos": "noun",
+    "tr": "randevu"
+  },
+  {
+    "word": "attitude",
+    "pos": "noun",
+    "tr": "tutum"
+  },
+  {
+    "word": "challenge",
+    "pos": "noun",
+    "tr": "zorluk"
+  },
+  {
+    "word": "choice",
+    "pos": "noun",
+    "tr": "seçim"
+  },
+  {
+    "word": "community",
+    "pos": "noun",
+    "tr": "topluluk"
+  },
+  {
+    "word": "conversation",
+    "pos": "noun",
+    "tr": "konuşma"
+  },
+  {
+    "word": "customer",
+    "pos": "noun",
+    "tr": "müşteri"
+  },
+  {
+    "word": "decision",
+    "pos": "noun",
+    "tr": "karar"
+  },
+  {
+    "word": "education",
+    "pos": "noun",
+    "tr": "eğitim"
+  },
+  {
+    "word": "environment",
+    "pos": "noun",
+    "tr": "çevre"
+  },
+  {
+    "word": "experience",
+    "pos": "noun",
+    "tr": "deneyim"
+  },
+  {
+    "word": "goal",
+    "pos": "noun",
+    "tr": "hedef"
+  },
+  {
+    "word": "habit",
+    "pos": "noun",
+    "tr": "alışkanlık"
+  },
+  {
+    "word": "health",
+    "pos": "noun",
+    "tr": "sağlık"
+  },
+  {
+    "word": "knowledge",
+    "pos": "noun",
+    "tr": "bilgi"
+  },
+  {
+    "word": "opportunity",
+    "pos": "noun",
+    "tr": "fırsat"
+  },
+  {
+    "word": "opinion",
+    "pos": "noun",
+    "tr": "fikir"
+  },
+  {
+    "word": "relationship",
+    "pos": "noun",
+    "tr": "ilişki"
+  },
+  {
+    "word": "result",
+    "pos": "noun",
+    "tr": "sonuç"
+  },
+  {
+    "word": "skill",
+    "pos": "noun",
+    "tr": "beceri"
+  },
+  {
+    "word": "solution",
+    "pos": "noun",
+    "tr": "çözüm"
+  },
+  {
+    "word": "success",
+    "pos": "noun",
+    "tr": "başarı"
+  },
+  {
+    "word": "traffic",
+    "pos": "noun",
+    "tr": "trafik"
+  },
+  {
+    "word": "typical",
+    "pos": "adjective",
+    "tr": "tipik"
+  },
+  {
+    "word": "available",
+    "pos": "adjective",
+    "tr": "mevcut"
+  },
+  {
+    "word": "confident",
+    "pos": "adjective",
+    "tr": "kendine güvenen"
+  },
+  {
+    "word": "convenient",
+    "pos": "adjective",
+    "tr": "kullanışlı"
+  },
+  {
+    "word": "creative",
+    "pos": "adjective",
+    "tr": "yaratıcı"
+  },
+  {
+    "word": "effective",
+    "pos": "adjective",
+    "tr": "etkili"
+  },
+  {
+    "word": "emotional",
+    "pos": "adjective",
+    "tr": "duygusal"
+  },
+  {
+    "word": "independent",
+    "pos": "adjective",
+    "tr": "bağımsız"
+  },
+  {
+    "word": "necessary",
+    "pos": "adjective",
+    "tr": "gerekli"
+  },
+  {
+    "word": "patient",
+    "pos": "adjective",
+    "tr": "sabırlı"
+  },
+  {
+    "word": "personal",
+    "pos": "adjective",
+    "tr": "kişisel"
+  },
+  {
+    "word": "popular",
+    "pos": "adjective",
+    "tr": "popüler"
+  },
+  {
+    "word": "responsible",
+    "pos": "adjective",
+    "tr": "sorumlu"
+  },
+  {
+    "word": "similar",
+    "pos": "adjective",
+    "tr": "benzer"
+  },
+  {
+    "word": "successful",
+    "pos": "adjective",
+    "tr": "başarılı"
+  },
+  {
+    "word": "useful",
+    "pos": "adjective",
+    "tr": "faydalı"
+  },
+  {
+    "word": "actually",
+    "pos": "adverb",
+    "tr": "aslında"
+  },
+  {
+    "word": "almost",
+    "pos": "adverb",
+    "tr": "neredeyse"
+  },
+  {
+    "word": "especially",
+    "pos": "adverb",
+    "tr": "özellikle"
+  },
+  {
+    "word": "fortunately",
+    "pos": "adverb",
+    "tr": "neyse ki"
+  },
+  {
+    "word": "instead",
+    "pos": "adverb",
+    "tr": "onun yerine"
+  },
+  {
+    "word": "perhaps",
+    "pos": "adverb",
+    "tr": "belki"
+  },
+  {
+    "word": "probably",
+    "pos": "adverb",
+    "tr": "muhtemelen"
+  },
+  {
+    "word": "recently",
+    "pos": "adverb",
+    "tr": "yakın zamanda"
+  },
+  {
+    "word": "although",
+    "pos": "conjunction",
+    "tr": "rağmen, gerçi"
+  },
+  {
+    "word": "unless",
+    "pos": "conjunction",
+    "tr": "olmadıkça"
+  },
+  {
+    "word": "while",
+    "pos": "conjunction",
+    "tr": "iken"
+  },
+  {
+    "word": "according to",
+    "pos": "preposition",
+    "tr": "göre"
+  },
+  {
+    "word": "as a result",
+    "pos": "phrase",
+    "tr": "sonuç olarak"
+  },
+  {
+    "word": "at least",
+    "pos": "phrase",
+    "tr": "en azından"
+  },
+  {
+    "word": "for example",
+    "pos": "phrase",
+    "tr": "örneğin"
+  },
+  {
+    "word": "in addition",
+    "pos": "phrase",
+    "tr": "ek olarak"
+  },
+  {
+    "word": "on purpose",
+    "pos": "phrase",
+    "tr": "bilerek"
+  },
+  {
+    "word": "take part",
+    "pos": "verb",
+    "tr": "katılmak"
+  },
+  {
+    "word": "deal with",
+    "pos": "verb",
+    "tr": "başa çıkmak"
+  },
+  {
+    "word": "look after",
+    "pos": "verb",
+    "tr": "ilgilenmek"
+  },
+  {
+    "word": "find out",
+    "pos": "verb",
+    "tr": "öğrenmek, keşfetmek"
+  },
+  {
+    "word": "give up",
+    "pos": "verb",
+    "tr": "vazgeçmek"
+  },
+  {
+    "word": "set up",
+    "pos": "verb",
+    "tr": "kurmak"
+  },
+  {
+    "word": "take place",
+    "pos": "verb",
+    "tr": "gerçekleşmek"
+  },
+  {
+    "word": "turn down",
+    "pos": "verb",
+    "tr": "reddetmek"
+  },
+  {
+    "word": "volunteer",
+    "pos": "noun",
+    "tr": "gönüllü"
+  },
+  {
+    "word": "research",
+    "pos": "noun",
+    "tr": "araştırma"
+  },
+  {
+    "word": "recommend",
+    "pos": "verb",
+    "tr": "tavsiye etmek"
+  }
+]

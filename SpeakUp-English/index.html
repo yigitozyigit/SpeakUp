@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5faf7">
+    <meta name="description" content="İngilizce cümle kurma pratiğini her gün küçük adımlarla geliştir.">
+    <title>SpeakUp English</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/themes.css">
+    <link rel="stylesheet" href="/css/components.css">
+  </head>
+  <body class="landing-page">
+    <main class="landing-layout">
+      <section class="hero-panel" aria-labelledby="hero-title">
+        <a class="brand" href="/" data-i18n-aria-label="auth.brandHome">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <span>SpeakUp <strong>English</strong></span>
+        </a>
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="landing.eyebrow"></p>
+          <h1 id="hero-title" data-i18n="landing.title"></h1>
+          <p class="hero-description" data-i18n="landing.description"></p>
+          <div class="hero-points" data-i18n-aria-label="landing.featuresLabel">
+            <div class="hero-point"><span aria-hidden="true">✦</span><span data-i18n="landing.pointOne"></span></div>
+            <div class="hero-point"><span aria-hidden="true">↗</span><span data-i18n="landing.pointTwo"></span></div>
+            <div class="hero-point"><span aria-hidden="true">◎</span><span data-i18n="landing.pointThree"></span></div>
+          </div>
+        </div>
+        <div class="hero-note"><span aria-hidden="true">☀</span><span data-i18n="landing.note"></span></div>
+      </section>
+
+      <section class="auth-panel" aria-labelledby="auth-title">
+        <div class="auth-card">
+          <p class="eyebrow" data-i18n="auth.welcome"></p>
+          <h2 id="auth-title" data-i18n="auth.loginTitle"></h2>
+          <p class="muted" data-i18n="auth.subtitle"></p>
+          <button class="button button-google button-full" id="google-signin" type="button">
+            <span class="google-g" aria-hidden="true">G</span><span data-i18n="auth.google"></span>
+          </button>
+          <div class="divider"><span data-i18n="auth.or"></span></div>
+          <div class="auth-tabs" role="tablist" data-i18n-aria-label="auth.tabLabel">
+            <button class="auth-tab is-active" id="login-tab" type="button" role="tab" aria-selected="true" data-i18n="auth.login"></button>
+            <button class="auth-tab" id="register-tab" type="button" role="tab" aria-selected="false" data-i18n="auth.register"></button>
+          </div>
+          <form id="auth-form" novalidate>
+            <label class="field-label" for="email" data-i18n="auth.email"></label>
+            <input id="email" name="email" type="email" autocomplete="email" required maxlength="254" data-i18n-placeholder="auth.emailPlaceholder">
+            <label class="field-label" for="password" data-i18n="auth.password"></label>
+            <input id="password" name="password" type="password" autocomplete="current-password" required minlength="8" maxlength="128" data-i18n-placeholder="auth.passwordPlaceholder">
+            <div class="form-options">
+              <button class="text-button" id="forgot-password" type="button" data-i18n="auth.forgot"></button>
+            </div>
+            <p class="form-error" id="auth-error" role="alert" aria-live="assertive"></p>
+            <button class="button button-primary button-full" id="email-submit" type="submit" data-i18n="auth.loginAction"></button>
+          </form>
+          <p class="legal-note" data-i18n="auth.privacy"></p>
+        </div>
+        <p class="footer-note" data-i18n="auth.footer"></p>
+      </section>
+    </main>
+    <script type="module" src="/js/auth-page.js"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5faf7">
+    <meta name="description" content="SpeakUp English öğrenme alanı">
+    <title>Öğrenme alanı · SpeakUp English</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/themes.css">
+    <link rel="stylesheet" href="/css/components.css">
+  </head>
+  <body class="app-page">
+    <div class="app-shell" id="app-shell" hidden>
+      <aside class="sidebar" data-i18n-aria-label="app.navigationLabel">
+        <a class="brand" href="/app.html" data-i18n-aria-label="auth.brandHome">
+          <span class="brand-mark" aria-hidden="true">S</span><span>SpeakUp <strong>English</strong></span>
+        </a>
+        <div class="profile-card">
+          <img class="avatar" id="user-avatar" alt="" hidden>
+          <div class="avatar-fallback" id="avatar-fallback" aria-hidden="true">S</div>
+          <div class="profile-copy"><strong id="user-name"></strong><span data-i18n="app.learner"></span></div>
+        </div>
+        <div class="stat-stack" data-i18n-aria-label="app.statsLabel">
+          <div class="stat-card"><span class="stat-icon flame" aria-hidden="true">♨</span><span><strong id="streak-value">0</strong><small data-i18n="app.streak"></small></span></div>
+          <div class="stat-card"><span class="stat-icon star" aria-hidden="true">✦</span><span><strong id="xp-value">0</strong><small data-i18n="app.totalXp"></small></span></div>
+          <div class="level-card"><div class="level-row"><span data-i18n="app.level"></span><strong id="level-value">1</strong></div><div class="level-track"><span id="level-progress"></span></div><small id="level-xp-label"></small></div>
+        </div>
+        <nav class="sidebar-nav" data-i18n-aria-label="app.appNavigationLabel">
+          <a class="nav-link is-current" href="#learning" aria-current="page"><span aria-hidden="true">▣</span><span data-i18n="app.learn"></span></a>
+          <button class="nav-link" id="open-settings" type="button"><span aria-hidden="true">⚙</span><span data-i18n="app.settings"></span></button>
+        </nav>
+        <section class="badge-panel" aria-labelledby="badge-heading">
+          <h2 id="badge-heading" data-i18n="app.badges"></h2>
+          <div class="badge-list" id="badge-list"></div>
+        </section>
+        <p class="sidebar-footer" data-i18n="app.sidebarTip"></p>
+      </aside>
+
+      <main class="learning-main" id="learning">
+        <div class="offline-banner" id="offline-banner" role="status" hidden data-i18n="app.offline"></div>
+        <header class="topbar">
+          <div><p class="eyebrow" data-i18n="app.today"></p><h1 data-i18n="app.dailyPractice"></h1></div>
+          <div class="goal-card" data-i18n-aria-label="app.goalProgressLabel">
+            <div class="goal-label"><span data-i18n="app.dailyGoal"></span><strong id="goal-label">0 / 10</strong></div>
+            <div class="progress-track" role="progressbar" id="goal-progress" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" data-i18n-aria-label="app.goalProgressLabel"><span id="goal-progress-fill"></span></div>
+          </div>
+        </header>
+
+        <section class="chat-card" data-i18n-aria-label="app.chatLabel">
+          <div class="chat-heading">
+            <div class="teacher-mark" aria-hidden="true">✦</div>
+            <div><h2 data-i18n="app.teacherName"></h2><p id="chat-subtitle" data-i18n="app.teacherSubtitle"></p></div>
+            <span class="online-indicator"><span></span><span data-i18n="app.ready"></span></span>
+          </div>
+          <div class="chat-scroll" id="chat-scroll">
+            <div class="chat-messages" id="chat-messages" aria-live="polite" aria-relevant="additions text"></div>
+            <div class="typing-indicator" id="typing-indicator" role="status" data-i18n-aria-label="app.typingLabel" hidden><span></span><span></span><span></span></div>
+          </div>
+          <div class="chat-controls" id="chat-controls">
+            <div class="answer-row" id="answer-row" hidden>
+              <label class="visually-hidden" for="answer-input" data-i18n="app.answerLabel"></label>
+              <textarea id="answer-input" rows="2" maxlength="500" data-i18n-placeholder="app.answerPlaceholder"></textarea>
+              <button class="button button-primary send-button" id="send-answer" type="button"><span data-i18n="app.send"></span><span aria-hidden="true">↗</span></button>
+            </div>
+            <button class="button button-primary continue-button" id="continue-button" type="button" data-i18n="app.continue"></button>
+            <p class="control-hint" id="control-hint" data-i18n="app.controlHint"></p>
+          </div>
+        </section>
+        <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+      </main>
+    </div>
+
+    <section class="loading-screen" id="loading-screen" role="status"><span class="spinner" aria-hidden="true"></span><p data-i18n="app.loading"></p></section>
+
+    <section class="onboarding-screen" id="onboarding-screen" hidden aria-labelledby="onboarding-title">
+      <div class="onboarding-card">
+        <div class="brand"><span class="brand-mark" aria-hidden="true">S</span><span>SpeakUp <strong>English</strong></span></div>
+        <p class="eyebrow" data-i18n="onboarding.step"></p>
+        <h1 id="onboarding-title" data-i18n="onboarding.title"></h1>
+        <p class="muted" data-i18n="onboarding.description"></p>
+        <fieldset class="choice-group"><legend data-i18n="onboarding.levelLabel"></legend><div class="level-choices" id="level-choices"></div></fieldset>
+        <fieldset class="choice-group"><legend data-i18n="onboarding.goalLabel"></legend><div class="goal-choices" id="goal-choices"></div></fieldset>
+        <p class="form-error" id="onboarding-error" role="alert"></p>
+        <button class="button button-primary button-full" id="save-onboarding" type="button" data-i18n="onboarding.start"></button>
+      </div>
+    </section>
+
+    <dialog class="settings-dialog" id="settings-dialog" aria-labelledby="settings-title">
+      <div class="dialog-heading"><div><p class="eyebrow" data-i18n="settings.eyebrow"></p><h2 id="settings-title" data-i18n="settings.title"></h2></div><button class="icon-button" id="close-settings" type="button" data-i18n-aria-label="settings.close">×</button></div>
+      <div class="settings-body">
+        <label class="field-label" for="settings-level" data-i18n="settings.level"></label>
+        <select id="settings-level"><option value="A1" data-i18n="settings.levelA1"></option><option value="A2" data-i18n="settings.levelA2"></option><option value="B1" data-i18n="settings.levelB1"></option><option value="B2" data-i18n="settings.levelB2"></option></select>
+        <label class="field-label" for="settings-goal" data-i18n="settings.goal"></label>
+        <select id="settings-goal"><option value="5">5</option><option value="10">10</option><option value="15">15</option></select>
+        <label class="field-label" for="settings-theme" data-i18n="settings.theme"></label>
+        <select id="settings-theme"><option value="system" data-i18n="settings.themeSystem"></option><option value="light" data-i18n="settings.themeLight"></option><option value="dark" data-i18n="settings.themeDark"></option></select>
+        <p class="form-error" id="settings-error" role="alert"></p>
+        <button class="button button-primary button-full" id="save-settings" type="button" data-i18n="settings.save"></button>
+        <div class="settings-danger"><h3 data-i18n="settings.privacyTitle"></h3><p data-i18n="settings.privacyDescription"></p><button class="button button-danger button-full" id="delete-account" type="button" data-i18n="settings.deleteAccount"></button></div>
+        <button class="button button-quiet button-full" id="sign-out" type="button" data-i18n="settings.signOut"></button>
+      </div>
+    </dialog>
+    <section class="celebration-screen" id="celebration-screen" hidden aria-labelledby="celebration-title">
+      <div class="celebration-card"><div class="celebration-icon" aria-hidden="true">✦</div><p class="eyebrow" data-i18n="celebration.complete"></p><h1 id="celebration-title" data-i18n="celebration.title"></h1><p class="celebration-message" id="celebration-message"></p><div class="celebration-stats"><div><strong id="celebration-xp">0</strong><span data-i18n="celebration.xp"></span></div><div><strong id="celebration-streak">0</strong><span data-i18n="celebration.streak"></span></div></div><p id="celebration-words" class="celebration-words"></p><button class="button button-primary button-full" id="celebration-settings" type="button" data-i18n="celebration.tomorrow"></button></div>
+    </section>
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>
